@@ -1,0 +1,24 @@
+{
+  "name": "sidcley-nascimento-backend",
+  "version": "1.0.0",
+  "description": "Projeto realizado em aulas do Módulo 2 - Backend",
+  "main": "express-fs-static.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./express-fs-static.js localhost 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bc-fullstack-01/Sidcley-Nascimento-Backend.git"
+  },
+  "author": "Sidcley Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bc-fullstack-01/Sidcley-Nascimento-Backend/issues"
+  },
+  "homepage": "https://github.com/bc-fullstack-01/Sidcley-Nascimento-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
