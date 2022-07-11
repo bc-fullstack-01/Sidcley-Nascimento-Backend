@@ -2,10 +2,11 @@
   "name": "sidcley-nascimento-backend",
   "version": "1.0.0",
   "description": "Projeto realizado em aulas do Módulo 2 - Backend",
-  "main": "express-fs-static.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./express-fs-static.js localhost 4000"
+    "start": "node express-static.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
